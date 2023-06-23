@@ -1,0 +1,79 @@
+.Header-Sec {
+    background: #FFFFFF;
+    position: relative;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 0px 5px 3px #756e6e52;
+    .container-fluid{
+        padding-right: 25px !important;
+        padding-left: 40px !important;
+    }
+    .col-md-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+    .Headlogo-Col{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }  
+}
+.get-btn a {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    background-image: -moz-linear-gradient(top, #fff 0%, #F4F200 100%);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    transition: background 300ms ease-in-out;
+    background-image: linear-gradient(298deg, #E80101 0%, #E80101 56%);
+    padding: 28px 50px 28px 50px;
+}
+.get-btn {
+    margin: 0;
+    position: absolute;
+    top: 14px;
+    svg {
+        font-size: 22px;
+        position: absolute;
+        left: 15px;
+    }
+}
+.get-btn a:hover{
+    background-position: -300%;
+    transition: background 500ms ease-in-out;
+    text-decoration: none;
+    color: $Color-White;
+}
+
+
+.nav-menu{
+    display: inline-flex;
+    list-style: disc;
+    margin-bottom: 0px;
+    padding: 15px 0px;
+    li {
+        margin: 0px 25px;
+    }
+    li a {
+        text-decoration: none;
+        color: #303331;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: $Inter-fonts;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-left: -6px;
+    }
+    ::marker{
+        color:#E80101;
+    }
+}
+

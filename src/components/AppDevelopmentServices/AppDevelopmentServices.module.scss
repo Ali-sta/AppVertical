@@ -1,0 +1,87 @@
+.AppDevelopmt-Services{
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0px 0px 0px;
+    .Top-Heading-Sec{
+        text-align: center;
+        padding: 0px 100px;
+        h1{
+            font-size: 80px;
+            color: $Color-White;
+            text-transform: capitalize;
+            position: relative;
+            z-index: 1;
+            font-family: 'RedHatDisplay-Bold';
+        }
+        p{
+            font-size: 28px;
+            font-family: 'RedHatDisplay-Medium';
+            color: $Color-White;
+            line-height: 45px;
+        }
+        h1::after{
+            content: "";
+            position: absolute;
+            width: 237px;
+            height: 28px;
+            background-color: #E80101;
+            left: 0;
+            transform: rotate(120deg);
+            top: 55px;
+            right: 560px;
+            margin: auto;
+            z-index: -1;
+            clip-path: polygon(0% 0%, 65% -66%, 79% 100%, 8% 100%);
+        }
+    }
+    .AppDeveplmtService-Post{
+        height: 130px;
+        padding: 0px 20px 0px 20px;
+        h1{
+            font-size: 18px;
+            font-family: 'RedHatDisplay-Medium';
+            color: $Color-White;
+            line-height: 25px;
+            position: relative;
+            height: 80px;
+            z-index: 1;
+            margin-left: 24px;;
+        }
+        p{
+            font-size: 18px;
+            font-family: 'RedHatDisplay-Regular';
+            color: $Color-White;
+            line-height: 30px;
+            display: none;
+        }
+        h1::after{
+            content: "";
+            position: absolute;
+            width: 28px;
+            height: 4px;
+            background-color: #E80101;
+            left: -30px;
+            transform: rotate(115deg);
+            top: 15px;
+            margin: auto;
+            z-index: -1;
+        }
+      
+    }
+    .AppDevelpmServices-Posts{
+        margin: 300px 0px 0px 0px;
+    }
+   
+    .AppDeveplmtService-Post:hover p {
+     display: block;
+      transition: 0.5s;
+    }
+    .AppDeveplmtService-Post:hover {
+        background-image: linear-gradient(353deg, #E80101 -32%, #8ac43c00 84%);
+        height: 388px;
+        transition: 0.5s;
+        margin-top: -258px;
+    }
+}

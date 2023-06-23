@@ -1,0 +1,48 @@
+.Tab-Main-Sec{
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  align-items: center;
+  column-gap: 30px;
+  .content {
+    display: none;
+  }
+  .content.active {
+    display: block;
+  }
+  .tabs-ul {
+    border: solid white;
+    border-width: 0px 1px 0px 0px;
+    li{
+      font-size: 20px;
+      font-family: 'RedHatDisplay-Regular';
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      list-style: none;
+      margin-bottom: 30px;
+    }
+    li:hover{
+      cursor: pointer;
+    }
+    li.active{
+      font-family: 'RedHatDisplay-Bold';
+      position: relative;
+      text-decoration: underline;
+    }
+  
+  }
+  .Content-Box{
+    p{
+      font-size: 20px;
+      color: white;
+      line-height: 35px;
+      font-family: 'RedHatDisplay-Regular';
+    }
+  }
+  .Tab-Content-Sec{
+    .Tab-Content-Sec-Row{
+      display: flex;
+      align-items: center;
+    }
+  }
+}

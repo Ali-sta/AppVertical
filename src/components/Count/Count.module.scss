@@ -1,0 +1,49 @@
+.Counter-Project{
+    .Top-Heading{
+        text-align:center ;
+        padding: 0px 180px;
+    }
+    h2{
+        font-size: 40px;
+        font-family: 'RedHatDisplay-Bold';
+        line-height: 50px;
+        color: $Color-Black;
+    }
+    .Counter-Main-Box{
+        margin: 0px 150px 0px 150px;
+            .Counter-Box{
+                margin: 10px;
+                padding: 0px 10px 0px;
+                width: 47%;
+            }
+            .Counter-Inner-Box{
+                padding: 30px;
+                margin: 10px 0px;
+                    h1{
+                        font-size: 70px;
+                        font-weight: bold;
+                        color: $Color-White;
+                        line-height: 45px;
+                    }
+                    h4{
+                        font-size: 26px;
+                        color: $Color-White;
+                        font-family: 'RedHatDisplay-Regular';
+                    }
+                    p{
+                        font-size: 16px;
+                        color: $Color-White;
+                        line-height: 30px;
+                        margin-top: 20px;
+                        font-family: 'RedHatDisplay-Regular';
+                    }
+            }.Counter-Box:nth-child(odd){
+                background-color: $Color-Red;
+            }
+            .Counter-Box:nth-child(even){
+                background-color: $Color-Black;
+            }
+
+    }
+
+}

@@ -1,0 +1,54 @@
+.Solution-Provider-Sec{
+    background-color: $Color-Red;
+    padding: 70px 20px 30px 20px;
+    position: relative;
+    z-index: 1;
+    .Top-Heading-sec{
+        text-align: center;
+        h5{
+            font-size: 20px;
+            font-family: 'RedHatDisplay-Medium';
+            color: $Color-White;
+        }
+        h1{
+            font-size: 55px;
+            color: $Color-White;
+            font-family: 'RedHatDisplay-Bold';
+            position: relative;
+            z-index: 1;
+        }
+        p{
+            font-size: 20px;
+            font-family: 'RedHatDisplay-Medium';
+            color: $Color-White;
+            padding: 0px 200px;
+        }
+        h1:after{
+            content: "";
+            position: absolute;
+            width: 180px;
+            height: 20px;
+            background-color: black;
+            left: 0;
+            transform: rotate(116deg);
+            top: 32px;
+            right: 874px;
+            margin: auto;
+            z-index: -1;
+            clip-path: polygon(0% 0%, 63% -66%, 79% 100%, 10% 100%);
+        }
+    }
+}
+
+    .Solution-Provider-Sec:after{
+       content: '';
+       position: absolute;
+       width: 230px;
+        height: 600px;
+       background-image: url('/images/preloader-el-0223.png');
+       right: 0;
+       top: 190px;
+       background-repeat: no-repeat;
+       background-size: cover;
+       z-index: -1;
+    }

@@ -1,0 +1,17 @@
+.Trusted-Sec{
+    text-align: center;
+    padding: 70px 60px;
+    .Logo-Sec{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .Image-box img{
+        width: 100%;
+    }
+    h5{
+        font-size: 18px;
+        color: #707070;
+        letter-spacing: 5px;
+        font-family: 'RedHatDisplay-Regular';
+    }
+}

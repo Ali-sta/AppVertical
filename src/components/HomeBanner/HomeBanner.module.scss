@@ -1,0 +1,81 @@
+.Banner{
+    padding: 70px 50px 70px 50px;
+    position: relative;
+  
+    .Content-Inner{
+        h6{
+            font-size: 18px;
+            color:$Color-Gray ;
+            text-transform: uppercase;
+            letter-spacing: 0.7px;
+            font-weight: 300;
+            font-family: "RedHatDisplay-Medium";
+        }
+        h1{
+            font-size: 90px;
+            color: #101010;
+            letter-spacing: -5px;
+            line-height: 104px;
+            font-family: RedHatDisplay-Black;
+            b{
+                background-color: #E80101;
+                color: $Color-White;
+                border-radius: 10px;
+            }
+        }
+
+        p{
+            font-size: 22px;
+            color:$Color-Gray ;
+            line-height: 40px;
+            margin: 14px 0px 40px 0px;
+            font-family: 'RedHatDisplay-Medium';
+        }
+        button{
+            background-color: #E80101;
+            background-image: -moz-linear-gradient(top, #fff 0%, #F4F200 100%);
+            background-size: 300px;
+            background-repeat: no-repeat;
+            background-position: 0%;
+            -webkit-transition: background 300ms ease-in-out;
+            transition: background 300ms ease-in-out;
+            background-image: linear-gradient(298deg, #1D1D1D 0%, #1D1D1D 56%);
+            padding: 22px 40px;
+            font-size: 14px;
+            font-weight: bold;
+            color: $Color-White;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            border-radius: 60px;
+        }
+        button:hover{
+            background-position: -4200%;
+        transition: background 300ms ease-in-out;
+        }
+    }
+    .Image-Col{
+        position: relative;
+        z-index: 1;
+    }
+}
+.Banner:after {
+    content: "";
+    position: absolute;
+    width: 245px;
+    height: 500px;
+    background-image: url('/images/Group 114.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 40px;
+    right: -45px;
+    z-index: 0;
+}
+.Banner:before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 720px;
+    background: #E80101;
+    top: 0;
+    left: 0;
+}
